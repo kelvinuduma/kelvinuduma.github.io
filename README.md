@@ -1,9 +1,9 @@
 # Hi there, I'm Kelvin Uduma! 👋
 
-I am an **IT Manager and Technical Executive Assistant** at **Jetense Consultants Limited**, bridging the gap between IT infrastructure and maritime operations. 
-I am passionate about Cybersecurity compliance, IT governance, and data analysis.
+I am the **IT Manager and Technical Executive Assistant** at **Jetense Consultants**, bridging the gap between IT infrastructure and maritime operations. I am passionate about Cybersecurity compliance, IT governance, and data analysis.
 
 Currently, I am also an **MSc Candidate in Plant Breeding and Genetics**, using data science to analyze agricultural traits.
+
 ---
 
 ### 🔭 **What I'm Working On**
@@ -24,9 +24,9 @@ Currently, I am also an **MSc Candidate in Plant Breeding and Genetics**, using 
 ![Hardware](https://img.shields.io/badge/Hardware-CPU%2FGPU-orange?style=for-the-badge)
 
 ### 📊 **GitHub Stats**
-![K-Uduma's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvinuduma&show_icons=true&theme=radical)
+![K-Uduma's GitHub stats](https://github-readme-stats.vercel.app/api?username=k-uduma&show_icons=true&theme=radical)
 
 ---
 
 ### 📫 **Connect with Me**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelvinuduma/)

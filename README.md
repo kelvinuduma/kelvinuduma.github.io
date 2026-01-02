@@ -24,7 +24,7 @@ Currently, I am also an **MSc Candidate in Plant Breeding and Genetics**, using 
 ![Hardware](https://img.shields.io/badge/Hardware-CPU%2FGPU-orange?style=for-the-badge)
 
 ### 📊 **GitHub Stats**
-![K-Uduma's GitHub stats](https://github-readme-stats.vercel.app/api?username=k-uduma&show_icons=true&theme=radical)
+![K-Uduma's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvinuduma&show_icons=true&theme=radical)
 
 ---
 

@@ -1,8 +1,13 @@
 # Hi there, I'm Kelvin Uduma! 👋
 
-I am the **IT Manager and Technical Executive Assistant** at **Jetense Consultants**, bridging the gap between IT infrastructure and maritime operations. I am passionate about Cybersecurity compliance, IT governance, and data analysis.
+I am an **ISC2 Certified IT Manager** and **Technical Executive Assistant** at **Jetense Consultants**, bridging the gap between IT infrastructure and maritime operations. I am passionate about Cybersecurity compliance, IT governance, and data analysis.
 
 Currently, I am also an **MSc Candidate in Plant Breeding and Genetics**, using data science to analyze agricultural traits.
+
+---
+
+### 🏆 **Certifications**
+![ISC2 Certified in Cybersecurity](https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity%20(CC)-success?style=for-the-badge&logo=isc2&logoColor=white)
 
 ---
 
@@ -12,7 +17,7 @@ Currently, I am also an **MSc Candidate in Plant Breeding and Genetics**, using 
 * **Thesis Research:** Conducting statistical analysis on *Carica papaya* genotypes using **R Studio** (Completely Randomized Design).
 
 ### 🌱 **What I'm Learning & Exploring**
-* **Cybersecurity:** ISC2 Certified in Cybersecurity (CC) principles and the ISM Code.
+* **Advanced Compliance:** Deepening knowledge of the **ISM Code** and its intersection with cyber risk management.
 * **Virtualization:** Experimenting with **VMware** and **VirtualBox** for secure testing environments.
 * **Audio Engineering:** Configuring layered soundscapes for worship music (Yamaha Motif ES enthusiast 🎹).
 

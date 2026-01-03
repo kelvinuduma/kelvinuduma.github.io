@@ -1,37 +1,30 @@
-# Hi there, I'm Kelvin Uduma! 👋
+# 👋 Hi, I'm Kelvin!
 
-I am an **ISC2 Certified IT Manager** and **Technical Executive Assistant** at **Jetense Consultants**, bridging the gap between IT infrastructure and maritime operations. I am passionate about Cybersecurity compliance, IT governance, and data analysis.
+- ⚓ I'm the **Maritime Digital Operations & Cybersecurity Lead** at **Jetense Consultants Limited** bridging the gap between IT infrastructure and maritime operations. I am passionate about Cybersecurity compliance, IT governance, and data analysis.
+- 🏆 I am **ISC2 Certified in Cybersecurity (CC)**
+- ☁️ I specialize in **Digital Transformation** (Microsoft 365/SharePoint) & **Cloud Migration**
+- 🧬 I'm an **MSc Candidate** using **Python & R** for genomics and climate-resilient breeding
+- 📍 Based in **Port Harcourt, Nigeria** (Open to Remote)
+- 📫 You can reach me on [LinkedIn](https://www.linkedin.com/in/kelvinuduma/)
 
-Currently, I am also an **MSc Candidate in Plant Breeding and Genetics**, using data science to analyze agricultural traits.
-
----
-
-### 🏆 **Certifications**
-![ISC2 Certified in Cybersecurity](https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity%20(CC)-success?style=for-the-badge&logo=isc2&logoColor=white)
-
----
+<div align="left">
+  <a href="https://www.linkedin.com/in/kelvinuduma/">
+    <img src="https://img.shields.io/badge/Follow%20me%20on-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="Follow on LinkedIn">
+  </a>
+  <a href="https://github.com/k-uduma">
+    <img src="https://img.shields.io/github/followers/k-uduma?label=Follow%20me%20on%20GitHub&style=flat-square&logo=github" alt="Follow on GitHub">
+  </a>
+</div>
 
 ### 🔭 **What I'm Working On**
-* **Maritime Cybersecurity:** Developing IT Policy and Procedure documents (Disaster Recovery, InfoSec, Account Management) tailored for the Nigerian maritime industry.
-* **Digital Transformation:** Creating electronic Safety Observation Cards (J-SOC) to streamline safety reporting in marine operations.
-* **Thesis Research:** Conducting statistical analysis on *Carica papaya* genotypes using **R Studio** (Completely Randomized Design).
+- 🚢🔐 **Maritime Cybersecurity:** Developing IT Policy and Procedure documents (Disaster Recovery, InfoSec, Account Management) tailored for the Nigerian maritime industry. Governance, Risk, and Compliance (GRC) for offshore fleets. Deploying Smart Vessel software.
+- **Digital Transformation:** Creating electronic Safety Observation Cards (J-SOC) to streamline safety reporting in marine operations.
+- 📊 **Thesis Research:** Conducting statistical analysis on *Carica papaya* genotypes using **R Studio** (Completely Randomized Design).
 
 ### 🌱 **What I'm Learning & Exploring**
-* **Advanced Compliance:** Deepening knowledge of the **ISM Code** and its intersection with cyber risk management.
-* **Virtualization:** Experimenting with **VMware** and **VirtualBox** for secure testing environments.
-* **Audio Engineering:** Configuring layered soundscapes for worship music (Yamaha Motif ES enthusiast 🎹).
+- **Advanced Compliance:** Deepening knowledge of the **ISM Code** and its intersection with cyber risk management.
+- 📦**Virtualization:** Experimenting with **VMware** and **VirtualBox** for secure testing environments (Running Linux and macOS on Windows).
 
-### 🛠 **Tech Stack & Tools**
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-%232196F3.svg?style=for-the-badge&logo=virtualbox&logoColor=white)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-ISC2-green?style=for-the-badge)
-![Hardware](https://img.shields.io/badge/Hardware-CPU%2FGPU-orange?style=for-the-badge)
-
-### 📊 **GitHub Stats**
-![K-Uduma's GitHub stats](https://github-readme-stats.vercel.app/api?username=k-uduma&show_icons=true&theme=radical)
-
----
-
-### 📫 **Connect with Me**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelvinuduma/)
+## Topics I enjoy
+- 🌍 **Sustainability**: Carbon Accounting & ESG Awareness (Climate Reality Leader)
+- 📝 **IT Governance**: Developing Disaster Recovery Plans & InfoSec Policies

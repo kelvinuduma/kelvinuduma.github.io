@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        /* 1. General Styles mimicking the minimalist look */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa; /* Slight off-white background */
+        }
+
+        a {
+            text-decoration: none;
+            color: #555;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #000;
+        }
+
+        /* 2. Header / Navigation */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .site-title {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #666;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+        }
+
+        nav a {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+        }
+
+        /* 3. Main Profile Section */
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /* Makes the image round */
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-family: 'Georgia', serif; /* Serif font for the name */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        h2 {
+            font-weight: 300;
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        /* 4. Bio Text */
+        .bio {
+            text-align: left; /* Text aligns left for reading like the screenshot */
+            font-size: 1.1rem;
+            color: #444;
+        }
+        
+        /* 5. Footer */
+        footer {
+            text-align: center;
+            margin-top: 100px;
+            padding: 20px;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="site-title">Your Name</div>
+        <nav>
+            <ul>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">Group</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Bio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/200" alt="Profile Photo" class="profile-pic">
+        
+        <h1>Your Name</h1>
+        <h2>Your Title, Company or University</h2>
+
+        <div class="bio">
+            <p>
+                I am a [Your Job Title] at [Company/University]. My work focuses on [Area of Interest 1] and [Area of Interest 2].
+            </p>
+            <p>
+                To these ends, I have worked on methods for assessing and improving [Specific Skill or Project], building complex systems, and ensuring operational excellence.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <a href="#">Contact</a>
+    </footer>
+
+</body>
+</html>

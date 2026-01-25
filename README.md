@@ -11,7 +11,7 @@
   <a href="https://www.linkedin.com/in/kelvinuduma/">
     <img src="https://img.shields.io/badge/Follow%20me%20on-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="Follow on LinkedIn">
   </a>
-  <a href="https://github.com/k-uduma">
+  <a href="https://github.com/kelvinuduma">
     <img src="https://img.shields.io/github/followers/k-uduma?label=Follow%20me%20on%20GitHub&style=flat-square&logo=github" alt="Follow on GitHub">
   </a>
   <a href="https://twitter.com/k_uduma">

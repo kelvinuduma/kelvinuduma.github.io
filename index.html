@@ -52,7 +52,7 @@
     <!-- General SEO -->
     <meta
       name="description"
-      content="Kelvin Uduma — Maritime Cybersecurity & IT Lead. ISC² CC + ISPS CSO. Maritime cyber risk, IMO GRC, OT/IT convergence, and applied AI systems across Gulf of Guinea offshore operations."
+      content="Kelvin Uduma — IT Lead & Technical Executive Assistant, Jetense Consultants. ISC² CC + ISPS CSO. Maritime cybersecurity, GRC, OT/IT convergence, and applied AI across Gulf of Guinea offshore operations."
     />
     <meta
       name="keywords"
@@ -75,7 +75,7 @@
     <nav class="nav" id="nav">
       <div class="nav-inner">
         <a href="#" class="nav-logo">KU</a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
           <a href="#about">About</a>
           <a href="#expertise">Expertise</a>
           <a href="#projects">Projects</a>
@@ -87,7 +87,10 @@
         <button
           class="nav-toggle"
           id="navToggle"
+          type="button"
           aria-label="Toggle navigation"
+          aria-controls="navLinks"
+          aria-expanded="false"
         >
           <span></span><span></span><span></span>
         </button>
@@ -105,8 +108,9 @@
         </h1>
         <p class="hero-description">
           IMO-compliant cyber risk management, OT/IT convergence, and vessel
-          network hardening for African shipping operators. Fleet IT &amp; Cybersecurity
-          Lead · ISC² CC · ISPS CSO.
+          network hardening for African shipping operators. IT Lead &amp;
+          Technical Executive Assistant · Jetense Consultants · ISC² CC · ISPS
+          CSO.
         </p>
         <div class="hero-actions">
           <a href="#contact" class="btn btn-primary">Start a conversation</a>
@@ -137,13 +141,15 @@
               fleets.
             </p>
             <p>
-              As IT Lead and Technical & Executive Assistant to the Managing Director,
-              I provide executive technical operations governance and fleet assurance coordination.
-              I have engineered vessel network infrastructure, authored controlled Safety
-              Management System (SMS) cyber suites aligned to IMO MSC.428(98), deployed
-              multi-bearer SATCOM architectures (Starlink Ocean Mode, Inmarsat C, VSAT),
-              and created operational Python and TypeScript automation pipelines across
-              dynamic-positioning (DP2) fleet operations.
+              As <strong>IT Lead &amp; Technical Executive Assistant</strong> to
+              the Managing Director at Jetense Consultants, I provide executive
+              technical operations governance and fleet assurance coordination. I
+              have engineered vessel network infrastructure, authored controlled
+              Safety Management System (SMS) cyber suites aligned to IMO
+              MSC.428(98), deployed multi-bearer SATCOM architectures (Starlink
+              Ocean Mode, Inmarsat C, VSAT), and created operational Python and
+              TypeScript automation pipelines across dynamic-positioning (DP2)
+              fleet operations.
             </p>
             <p>
               I'm also a <strong>published lead-author researcher</strong> —
@@ -155,10 +161,9 @@
             <p>
               On the engineering side, I build AI-native systems: a
               <strong>20-tool TypeScript MCP server</strong> integrating
-              Microsoft Graph and Claude, local AI deployment stacks
-              (NemoClaw/OpenClaw) on WSL2/Docker, and autonomous agent
-              frameworks — designed to run on constrained hardware for African
-              operators.
+              Microsoft Graph and Claude, local AI agent stacks on Linux/Docker,
+              and autonomous agent frameworks — designed to run on constrained
+              hardware for African operators.
             </p>
           </div>
           <div class="about-highlights">
@@ -166,8 +171,10 @@
               <div class="profile-image-container">
                 <img
                   src="assets/kelvin.png"
-                  alt="Kelvin Uduma"
+                  alt="Portrait of Kelvin Uduma"
                   class="profile-image"
+                  width="320"
+                  height="320"
                 />
               </div>
             </div>
@@ -186,9 +193,9 @@
               <div class="highlight-icon"><i class="ph ph-cpu"></i></div>
               <h3>AI Engineering</h3>
               <p>
-                20-tool Microsoft Graph MCP server (TypeScript). Local AI stacks
-                on WSL2/Docker. Vector Institute Scholar. Python, R, SQL, Power
-                BI.
+                20-tool Microsoft Graph MCP server (TypeScript). Local AI agent
+                stacks on Linux/Docker. Vector Institute Scholar. Python, R,
+                SQL, Power BI.
               </p>
             </div>
             <div class="highlight-card">
@@ -231,9 +238,8 @@
             <p>
               Shipped a 20-tool TypeScript MCP server integrating Microsoft
               Graph (Outlook, Calendar, OneDrive, Teams, SharePoint) with
-              Claude. Built local AI deployment stacks (NemoClaw/OpenClaw) on
-              WSL2/Docker and autonomous agent frameworks designed for
-              constrained hardware.
+              Claude. Built local AI agent stacks on Linux/Docker and
+              autonomous agent frameworks designed for constrained hardware.
             </p>
             <div class="expertise-tags">
               <span>TypeScript</span><span>MCP</span><span>Agents</span
@@ -262,7 +268,13 @@
         <div class="section-label">Projects</div>
         <h2 class="section-title">What I've shipped</h2>
         <div class="projects-grid">
-          <div class="project-card project-featured">
+          <article
+            class="project-card project-featured"
+            data-modal="modal-crosswalk"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
             <div class="project-badge">Live tool</div>
             <h3>ISM Code ↔ NIST CSF 2.0 Crosswalk</h3>
             <p>
@@ -276,83 +288,133 @@
               <span>NIST CSF 2.0</span><span>ISM Code</span><span>IMO</span
               ><span>Open source</span>
             </div>
-          </div>
-          <div class="project-card">
+          </article>
+          <article
+            class="project-card"
+            data-modal="modal-sms"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
             <div class="project-badge">Fleet GRC</div>
             <h3>Offshore Safety Management System (SMS) &amp; Cyber Suite</h3>
-              Comprehensive ISM Code compliance and safety governance suite for a
-              DP2 offshore fleet — 22 fleet procedure sections including dedicated
-              Section 13A (IT &amp; Cybersecurity), 49 operational forms/checklists,
-              and 3 shipboard incident-response playbooks aligned to IMO MSC.428(98).
+            <p>
+              Comprehensive ISM Code compliance and safety governance suite for
+              a DP2 offshore fleet — 22 fleet procedure sections including
+              dedicated Section 13A (IT &amp; Cybersecurity), 49 operational
+              forms/checklists, and 3 shipboard incident-response playbooks
+              aligned to IMO MSC.428(98).
             </p>
             <div class="project-tech">
               <span>ISM Code</span><span>IMO MSC.428(98)</span><span>GRC</span>
             </div>
-          </div>
-          <div class="project-card">
+          </article>
+          <article
+            class="project-card"
+            data-modal="modal-pms"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
             <div class="project-badge">Ops Automation</div>
             <h3>Automated Vessel PMS Video Training Engine</h3>
             <p>
               Automated 25-video curriculum pipeline for shipboard Planned
-              Maintenance Systems (PMS) — screen capture automation, text-to-speech
-              voice synthesis, and Whisper-aligned subtitles for remote crew
-              onboarding across offshore vessels.
+              Maintenance Systems (PMS) — screen capture automation,
+              text-to-speech voice synthesis, and Whisper-aligned subtitles for
+              remote crew onboarding across offshore vessels.
             </p>
             <div class="project-tech">
-              <span>Python</span><span>Whisper</span><span>Voice Synthesis</span><span>PMS</span>
+              <span>Python</span><span>Whisper</span
+              ><span>Voice Synthesis</span><span>PMS</span>
             </div>
-          </div>
-          <div class="project-card">
+          </article>
+          <article
+            class="project-card"
+            data-modal="modal-qr"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
             <div class="project-badge">Mobile &amp; Telemetry</div>
             <h3>QR-Code Vessel Safety Observation Workflow</h3>
             <p>
               Paperless hazard reporting system replacing physical safety cards
-              across an offshore fleet and shore operations. Leverages mobile QR codes
-              and Python/Node.js telemetry pipelines to capture 168+ hazard reports
-              per week with zero paperwork latency.
+              across an offshore fleet and shore operations. Leverages mobile QR
+              codes and Python/Node.js telemetry pipelines to capture 168+
+              hazard reports per week with zero paperwork latency.
             </p>
             <div class="project-tech">
-              <span>Node.js</span><span>Python</span><span>Mobile Telemetry</span><span>HSE</span>
+              <span>Node.js</span><span>Python</span
+              ><span>Mobile Telemetry</span><span>HSE</span>
             </div>
-          </div>
-          <div class="project-card">
+          </article>
+          <article
+            class="project-card"
+            data-modal="modal-satcom"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
             <div class="project-badge">SATCOM &amp; Cloud</div>
             <h3>Offshore SATCOM Telemetry &amp; Cost Optimization</h3>
             <p>
-              Multi-bearer maritime connectivity architecture (Starlink Ocean Mode,
-              Inmarsat C, VSAT, DGPS) across DP2 vessels. Implemented active telemetry
-              and data routing, reducing fleet satellite OPEX ~90% below budget
-              while maintaining 98%+ fleet uptime.
+              Multi-bearer maritime connectivity architecture (Starlink Ocean
+              Mode, Inmarsat C, VSAT, DGPS) across DP2 vessels. Implemented
+              active telemetry and data routing, reducing fleet satellite OPEX
+              ~90% below budget while maintaining 98%+ fleet uptime.
             </p>
             <div class="project-tech">
-              <span>Starlink</span><span>Inmarsat C</span><span>Network Telemetry</span><span>OPEX</span>
+              <span>Starlink</span><span>Inmarsat C</span
+              ><span>Network Telemetry</span><span>OPEX</span>
             </div>
-          </div>
-          <div class="project-card">
+          </article>
+          <article
+            class="project-card"
+            data-modal="modal-cyber"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
             <div class="project-badge">Policy suite</div>
             <h3>Cybersecurity Policy &amp; Maturity Roadmap</h3>
             <p>
               Enterprise IT/OT security policy suite aligned to NIST CSF 2.0,
               elevating maturity from 1.5 to 2.3/5.0 across shore and shipboard
-              networks, with a 20-action remediation roadmap targeting Tier 3 by Dec 2026.
+              networks, with a 20-action remediation roadmap targeting Tier 3 by
+              Dec 2026.
             </p>
             <div class="project-tech">
               <span>NIST CSF 2.0</span><span>Audit</span><span>Roadmap</span>
             </div>
-          </div>
-          <div class="project-card">
+          </article>
+          <article
+            class="project-card"
+            data-modal="modal-it"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
             <div class="project-badge">OT/IT deploy</div>
             <h3>Vessel OT/IT Infrastructure &amp; Dry-Dock Spec</h3>
             <p>
               Hands-on OT/IT deployment documentation across an offshore fleet,
-              combined with a yard-ready 112-item dry-dock engineering specification
-              and valve register that caught 9 critical missing valves before yard arrival.
+              combined with a yard-ready 112-item dry-dock engineering
+              specification and valve register that caught 9 critical missing
+              valves before yard arrival.
             </p>
             <div class="project-tech">
-              <span>OT/IT</span><span>Dry-Dock</span><span>Engineering Spec</span>
+              <span>OT/IT</span><span>Dry-Dock</span
+              ><span>Engineering Spec</span>
             </div>
-          </div>
-          <div class="project-card">
+          </article>
+          <article
+            class="project-card"
+            data-modal="modal-mcp"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
             <div class="project-badge">20 tools</div>
             <h3>Microsoft Graph MCP Server</h3>
             <p>
@@ -364,7 +426,7 @@
             <div class="project-tech">
               <span>MCP</span><span>Graph API</span><span>TypeScript</span>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>
@@ -526,7 +588,7 @@
           </p>
           <div class="contact-actions">
             <a
-              href="https://linkedin.com/in/kelvinuduma"
+              href="https://www.linkedin.com/in/kelvinuduma/"
               target="_blank"
               rel="noopener"
               class="btn btn-primary"
@@ -542,11 +604,18 @@
               ><i class="ph ph-github-logo"></i
             ></a>
             <a
-              href="https://linkedin.com/in/kelvinuduma"
+              href="https://www.linkedin.com/in/kelvinuduma/"
               target="_blank"
               rel="noopener"
               aria-label="LinkedIn"
               ><i class="ph ph-linkedin-logo"></i
+            ></a>
+            <a
+              href="https://orcid.org/0000-0002-7091-8832"
+              target="_blank"
+              rel="noopener"
+              aria-label="ORCID"
+              ><i class="ph ph-identification-badge"></i
             ></a>
             <a
               href="https://stackoverflow.com/users/10935835/kelvin-uduma"
@@ -571,11 +640,20 @@
     </footer>
 
     <!-- Modals -->
-    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-overlay" id="modalOverlay" hidden></div>
 
-    <div class="modal" id="modal-crosswalk">
-      <button class="modal-close">×</button>
-      <h3>ISM Code ↔ NIST CSF 2.0 Crosswalk</h3>
+    <div
+      class="modal"
+      id="modal-crosswalk"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-crosswalk-title"
+      hidden
+    >
+      <button type="button" class="modal-close" aria-label="Close dialog">
+        ×
+      </button>
+      <h3 id="modal-crosswalk-title">ISM Code ↔ NIST CSF 2.0 Crosswalk</h3>
       <p>
         <strong>Case Study:</strong> MSC-FAL.1/Circ.3/Rev.3 tells DPAs and ship
         managers to structure maritime cyber risk management around a five-step
@@ -592,122 +670,200 @@
         carry no strong ISM equivalent and are flagged as gaps rather than
         smoothed over. Published open source under MIT.
       </p>
-      <p style="margin-top: 1rem">
+      <p class="modal-links">
         <strong>Live tool:</strong>
         <a
           href="https://kelvinuduma.github.io/ism-cyber-crosswalk/"
           target="_blank"
           rel="noopener"
           class="modal-link"
-          style="color: var(--accent-primary); text-decoration: underline"
           >kelvinuduma.github.io/ism-cyber-crosswalk</a
         >
-        &nbsp;·&nbsp;
+        ·
         <a
           href="https://github.com/kelvinuduma/ism-cyber-crosswalk"
           target="_blank"
           rel="noopener"
           class="modal-link"
-          style="color: var(--accent-primary); text-decoration: underline"
           >Source</a
         >
       </p>
     </div>
 
-    <div class="modal" id="modal-sms">
-      <button class="modal-close">×</button>
-      <h3>JCL Safety Management System</h3>
+    <div
+      class="modal"
+      id="modal-sms"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-sms-title"
+      hidden
+    >
+      <button type="button" class="modal-close" aria-label="Close dialog">
+        ×
+      </button>
+      <h3 id="modal-sms-title">
+        Offshore Safety Management System (SMS) &amp; Cyber Suite
+      </h3>
       <p>
-        <strong>Case Study:</strong> Developed a complete ISM Code compliance
-        documentation suite — fleet procedure manuals, editable source
-        documents, and operational forms covering every ISM Code section.
+        <strong>Case Study:</strong> Built a controlled ISM Code compliance and
+        safety governance suite for a DP2 offshore fleet — 22 fleet procedure
+        sections including dedicated Section 13A (IT &amp; Cybersecurity), 49
+        operational forms/checklists, and 3 shipboard incident-response
+        playbooks aligned to IMO MSC.428(98).
       </p>
       <p>
-        <strong>Impact:</strong> Standardised safety protocols across the fleet
-        and ensured complete regulatory compliance, minimising operational
-        risks.
-      </p>
-    </div>
-
-    <div class="modal" id="modal-cyber">
-      <button class="modal-close">×</button>
-      <h3>Cybersecurity Policy Suite</h3>
-      <p>
-        <strong>Case Study:</strong> Authored an enterprise IT security policy
-        suite along with a comprehensive cybersecurity audit report and
-        remediation roadmap.
-      </p>
-      <p>
-        <strong>Impact:</strong> Strengthened organisational security posture in
-        alignment with NIST CSF, providing clear incident response and disaster
-        recovery procedures.
+        <strong>Impact:</strong> Standardised safety and cyber protocols across
+        vessels and shore, giving DPAs and ship managers a usable GRC layer
+        instead of fragmented Word docs.
       </p>
     </div>
 
-    <div class="modal" id="modal-it">
-      <button class="modal-close">×</button>
-      <h3>IT Infrastructure Portfolio</h3>
+    <div
+      class="modal"
+      id="modal-pms"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-pms-title"
+      hidden
+    >
+      <button type="button" class="modal-close" aria-label="Close dialog">
+        ×
+      </button>
+      <h3 id="modal-pms-title">Automated Vessel PMS Video Training Engine</h3>
       <p>
-        <strong>Case Study:</strong> Deployed and managed vessel network
-        installations, CCTV, and Starlink vs 5G systems. Maintained detailed IT
-        asset registers and security audit checklists.
+        <strong>Case Study:</strong> Automated a 25-video curriculum pipeline
+        for shipboard Planned Maintenance Systems — screen capture, TTS voice
+        synthesis, and Whisper-aligned subtitles for remote crew onboarding.
       </p>
       <p>
-        <strong>Impact:</strong> Ensured robust, high-availability connectivity
-        for offshore fleets, vastly improving real-time communication and data
-        transfer.
-      </p>
-    </div>
-
-    <div class="modal" id="modal-budget">
-      <button class="modal-close">×</button>
-      <h3>Budget Link Integrity Checker</h3>
-      <p>
-        <strong>Case Study:</strong> Built a 385-line Python automation tool to
-        validate complex Excel workbook chains, checking for external
-        references, missing sheets, and stale named ranges.
-      </p>
-      <p>
-        <strong>Impact:</strong> Reduced budget calculation errors and saved
-        hours of manual validation time during financial planning.
+        <strong>Impact:</strong> Cut instructor dependency for PMS rollouts and
+        gave offshore crews consistent, subtitle-ready training packages.
       </p>
     </div>
 
-    <div class="modal" id="modal-smartvessel">
-      <button class="modal-close">×</button>
-      <h3>SmartVessel Deployment</h3>
+    <div
+      class="modal"
+      id="modal-qr"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-qr-title"
+      hidden
+    >
+      <button type="button" class="modal-close" aria-label="Close dialog">
+        ×
+      </button>
+      <h3 id="modal-qr-title">QR-Code Vessel Safety Observation Workflow</h3>
       <p>
-        <strong>Case Study:</strong> Created the training framework,
-        teleprompter scripts, and user guides for rolling out the SmartVessel
-        software across the entire fleet (Cloud + Local Server).
+        <strong>Case Study:</strong> Replaced physical hazard cards with a
+        mobile QR workflow and Python/Node.js telemetry across fleet and shore
+        operations.
       </p>
       <p>
-        <strong>Impact:</strong> Accelerated crew onboarding and ensured high
-        adoption rates for the new fleet management system.
+        <strong>Impact:</strong> Captured 168+ hazard reports per week with zero
+        paperwork latency, improving HSE visibility for management review.
       </p>
     </div>
 
-    <div class="modal" id="modal-mcp">
-      <button class="modal-close">×</button>
-      <h3>Microsoft Graph MCP Server</h3>
+    <div
+      class="modal"
+      id="modal-satcom"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-satcom-title"
+      hidden
+    >
+      <button type="button" class="modal-close" aria-label="Close dialog">
+        ×
+      </button>
+      <h3 id="modal-satcom-title">
+        Offshore SATCOM Telemetry &amp; Cost Optimization
+      </h3>
       <p>
-        <strong>Case Study:</strong> Engineered a custom Model Context Protocol
-        (MCP) server in TypeScript using the Microsoft Graph API, implementing
-        20 core tools.
+        <strong>Case Study:</strong> Designed multi-bearer maritime
+        connectivity (Starlink Ocean Mode, Inmarsat C, VSAT, DGPS) with active
+        telemetry and data routing across DP2 vessels.
       </p>
       <p>
-        <strong>Impact:</strong> Empowered AI agents to securely read and search
-        emails, manage calendars, and access OneDrive files and SharePoint sites
-        with a DPAPI-encrypted token cache.
+        <strong>Impact:</strong> Reduced fleet satellite OPEX ~90% below budget
+        while holding 98%+ uptime for operational communications.
       </p>
-      <p style="margin-top: 1rem">
+    </div>
+
+    <div
+      class="modal"
+      id="modal-cyber"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-cyber-title"
+      hidden
+    >
+      <button type="button" class="modal-close" aria-label="Close dialog">
+        ×
+      </button>
+      <h3 id="modal-cyber-title">Cybersecurity Policy &amp; Maturity Roadmap</h3>
+      <p>
+        <strong>Case Study:</strong> Authored an enterprise IT/OT security
+        policy suite aligned to NIST CSF 2.0, with a full audit and 20-action
+        remediation roadmap targeting Tier 3 by Dec 2026.
+      </p>
+      <p>
+        <strong>Impact:</strong> Lifted measured maturity from 1.5 to 2.3/5.0
+        across shore and shipboard networks, with clear IR and DR procedures.
+      </p>
+    </div>
+
+    <div
+      class="modal"
+      id="modal-it"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-it-title"
+      hidden
+    >
+      <button type="button" class="modal-close" aria-label="Close dialog">
+        ×
+      </button>
+      <h3 id="modal-it-title">Vessel OT/IT Infrastructure &amp; Dry-Dock Spec</h3>
+      <p>
+        <strong>Case Study:</strong> Documented OT/IT deployments across an
+        offshore fleet and produced a yard-ready 112-item dry-dock engineering
+        specification and valve register.
+      </p>
+      <p>
+        <strong>Impact:</strong> Caught 9 critical missing valves before yard
+        arrival and left a reusable install/audit pack for vessel networks,
+        CCTV, and SATCOM.
+      </p>
+    </div>
+
+    <div
+      class="modal"
+      id="modal-mcp"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-mcp-title"
+      hidden
+    >
+      <button type="button" class="modal-close" aria-label="Close dialog">
+        ×
+      </button>
+      <h3 id="modal-mcp-title">Microsoft Graph MCP Server</h3>
+      <p>
+        <strong>Case Study:</strong> Engineered a TypeScript Model Context
+        Protocol server for Microsoft Graph with 20 tools spanning Outlook,
+        Calendar, OneDrive, Teams, and SharePoint.
+      </p>
+      <p>
+        <strong>Impact:</strong> Lets AI agents securely read and draft email,
+        manage calendars, and search files/sites with encrypted token caching.
+      </p>
+      <p class="modal-links">
         <strong>Repository:</strong>
         <a
           href="https://github.com/kelvinuduma/microsoft-graph-mcp"
           target="_blank"
           rel="noopener"
           class="modal-link"
-          style="color: var(--accent-primary); text-decoration: underline"
           >github.com/kelvinuduma/microsoft-graph-mcp</a
         >
       </p>

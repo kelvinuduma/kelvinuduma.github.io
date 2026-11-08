@@ -963,6 +963,55 @@ body {
   cursor: pointer;
 }
 
+.project-card:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 3px;
+}
+
+.reveal-ready {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-ready.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nav-links.is-open {
+  display: flex !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  padding: 24px;
+  background: rgba(10, 14, 26, 0.98);
+  border-bottom: 1px solid rgba(139, 147, 167, 0.12);
+  backdrop-filter: blur(20px);
+}
+
+.modal[hidden],
+.modal-overlay[hidden] {
+  display: none;
+}
+
+.modal-close:focus-visible,
+.modal-link:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.modal-links {
+  margin-top: 1rem;
+}
+
+.modal-link {
+  color: var(--accent-primary);
+  text-decoration: underline;
+}
+
 @media (max-width: 480px) {
   .about-highlights > div:last-of-type {
     grid-column: span 1;
